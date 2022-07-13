@@ -1,0 +1,254 @@
+[buildPlans.iosevka-proper]      # <iosevka> is your plan name
+family = "Iosevka Proper"        # Font menu family name
+spacing = "normal"               # Optional; Values: `normal`, `quasi-proportional`, `quasi-proportional-extension-only`, `term`, `fontconfig-mono`, or `fixed`
+serifs = "sans"                  # Optional; Values: `sans` or `slab`
+no-ligation = true
+no-cv-ss = true
+
+[buildPlans.iosevka-proper.variants.design]
+cv01 = 1  # A
+cv02 = 1  # B
+cv03 = 1  # C
+cv04 = 1  # D
+cv05 = 1  # E
+cv06 = 1  # F
+cv07 = 4  # G
+cv08 = 1  # H
+cv09 = 1  # I
+cv10 = 2  # J
+cv11 = 1  # K
+cv12 = 1  # L
+cv13 = 1  # M
+cv14 = 1  # N
+cv15 = 1  # P
+cv16 = 4  # Q
+cv17 = 1  # R
+cv18 = 1  # S
+cv19 = 1  # T
+cv20 = 3  # U
+cv21 = 1  # V
+cv22 = 1  # W
+cv23 = 1  # X
+cv24 = 1  # Y
+cv25 = 1  # Z
+cv26 = 1  # a
+cv27 = 1  # b
+cv28 = 1  # c
+cv29 = 1  # d
+cv30 = 1  # e
+cv31 = 16 # f
+cv32 = 3  # g
+cv33 = 1  # h
+cv34 = 1  # i
+cv35 = 6  # j
+cv36 = 1  # k
+cv37 = 1  # l
+cv38 = 1  # m
+cv39 = 1  # n
+cv40 = 1  # p
+cv41 = 1  # q
+cv42 = 10 # r
+cv43 = 1  # s
+cv44 = 2  # t
+cv45 = 1  # u
+cv46 = 1  # v
+cv47 = 1  # w
+cv48 = 1  # x
+cv49 = 2  # y
+cv50 = 1  # z
+cv51 = 1  # ſ
+cv52 = 8  # ß
+cv53 = 1  # Λ
+cv54 = 1  # ɑ
+VXAA = 1  # δ
+cv55 = 1  # Γ
+cv56 = 6  # ɩ
+cv57 = 2  # λ
+VXAC = 2  # μ
+VXAB = 2  # ξ
+cv71 = 2  # 0
+cv72 = 3  # 1
+cv74 = 2  # 3
+cv75 = 1  # 4
+cv76 = 2  # 5
+cv77 = 3  # 6
+cv78 = 3  # 7
+cv79 = 3  # 8
+cv80 = 3  # 9
+cv81 = 2  # ~
+cv82 = 6  # *
+cv83 = 1  # _
+cv84 = 1  #
+cv85 = 1  # ^
+cv86 = 1  # (
+cv87 = 2  # {
+cv88 = 1  # #
+cv89 = 1  # &
+cv90 = 6  # @
+cv91 = 1  # $
+cv92 = 1  #
+cv93 = 3  # %
+cv95 = 1  # <=
+
+[buildPlans.iosevka-proper.variants.italic]
+cv30 = 2  # e
+cv31 = 19 # f
+cv32 = 2  # g
+cv34 = 1  # i
+cv35 = 6  # j
+cv36 = 2  # k
+cv37 = 1  # l
+cv49 = 5  # y
+cv75 = 5  # 4
+cv77 = 1  # 6
+cv80 = 1  # 9
+cv89 = 5  # &
+
+###################################################################################################
+# Override default building slope sets
+# When this section is absent, all slopes would be built.
+
+[buildPlans.iosevka-proper.slopes.upright]
+angle = 0             # Angle in degrees. Valid range [0, 15]
+shape = "upright"     # Slope grade used for shape selection.  `upright` | `oblique` | `italic`
+menu  = "upright"     # Slope grade used for naming.           `upright` | `oblique` | `italic`
+css   = "normal"      # Slope grade used for webfont CSS.      `normal`  | `oblique` | `italic`
+
+[buildPlans.iosevka-proper.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.iosevka-proper.widths.normal]
+shape = 575        # Unit Width, measured in 1/1000 em.
+menu  = 5          # Width grade for the font's names.
+css   = "normal"   # "font-stretch' property of webfont CSS.
+
+
+[buildPlans.iosevka-proper-duo]      # <iosevka> is your plan name
+family = "Iosevka Proper Duo"        # Font menu family name
+spacing = "normal"                   # Optional; Values: `normal`, `quasi-proportional`, `quasi-proportional-extension-only`, `term`, `fontconfig-mono`, or `fixed`
+serifs = "sans"                      # Optional; Values: `sans` or `slab`
+no-ligation = true
+no-cv-ss = true
+
+[buildPlans.iosevka-proper-duo.variants.design]
+cv01 = 1  # A
+cv02 = 1  # B
+cv03 = 1  # C
+cv04 = 1  # D
+cv05 = 1  # E
+cv06 = 1  # F
+cv07 = 4  # G
+cv08 = 1  # H
+cv09 = 1  # I
+cv10 = 2  # J
+cv11 = 1  # K
+cv12 = 1  # L
+cv13 = 1  # M
+cv14 = 1  # N
+cv15 = 1  # P
+cv16 = 4  # Q
+cv17 = 1  # R
+cv18 = 1  # S
+cv19 = 1  # T
+cv20 = 3  # U
+cv21 = 1  # V
+cv22 = 1  # W
+cv23 = 1  # X
+cv24 = 1  # Y
+cv25 = 1  # Z
+cv26 = 1  # a
+cv27 = 1  # b
+cv28 = 1  # c
+cv29 = 1  # d
+cv30 = 1  # e
+cv31 = 16 # f
+cv32 = 3  # g
+cv33 = 1  # h
+cv34 = 1  # i
+cv35 = 6  # j
+cv36 = 1  # k
+cv37 = 1  # l
+cv38 = 1  # m
+cv39 = 1  # n
+cv40 = 1  # p
+cv41 = 1  # q
+cv42 = 10 # r
+cv43 = 1  # s
+cv44 = 2  # t
+cv45 = 1  # u
+cv46 = 1  # v
+cv47 = 1  # w
+cv48 = 1  # x
+cv49 = 2  # y
+cv50 = 1  # z
+cv51 = 1  # ſ
+cv52 = 8  # ß
+cv53 = 1  # Λ
+cv54 = 1  # ɑ
+VXAA = 1  # δ
+cv55 = 1  # Γ
+cv56 = 6  # ɩ
+cv57 = 2  # λ
+VXAC = 2  # μ
+VXAB = 2  # ξ
+cv71 = 2  # 0
+cv72 = 3  # 1
+cv74 = 2  # 3
+cv75 = 1  # 4
+cv76 = 2  # 5
+cv77 = 3  # 6
+cv78 = 3  # 7
+cv79 = 3  # 8
+cv80 = 3  # 9
+cv81 = 2  # ~
+cv82 = 6  # *
+cv83 = 1  # _
+cv84 = 1  #
+cv85 = 1  # ^
+cv86 = 1  # (
+cv87 = 2  # {
+cv88 = 1  # #
+cv89 = 1  # &
+cv90 = 6  # @
+cv91 = 1  # $
+cv92 = 1  #
+cv93 = 3  # %
+cv95 = 1  # <=
+
+[buildPlans.iosevka-proper-duo.variants.italic]
+cv30 = 2  # e
+cv31 = 19 # f
+cv32 = 2  # g
+cv34 = 1  # i
+cv35 = 6  # j
+cv36 = 2  # k
+cv37 = 1  # l
+cv49 = 5  # y
+cv75 = 5  # 4
+cv77 = 1  # 6
+cv80 = 1  # 9
+cv89 = 5  # &
+
+###################################################################################################
+# Override default building slope sets
+# When this section is absent, all slopes would be built.
+
+[buildPlans.iosevka-proper-duo.slopes.upright]
+angle = 0             # Angle in degrees. Valid range [0, 15]
+shape = "upright"     # Slope grade used for shape selection.  `upright` | `oblique` | `italic`
+menu  = "upright"     # Slope grade used for naming.           `upright` | `oblique` | `italic`
+css   = "normal"      # Slope grade used for webfont CSS.      `normal`  | `oblique` | `italic`
+
+[buildPlans.iosevka-proper-duo.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.iosevka-proper-duo.widths.normal]
+shape = 575        # Unit Width, measured in 1/1000 em.
+menu  = 5          # Width grade for the font's names.
+css   = "normal"   # "font-stretch' property of webfont CSS.
