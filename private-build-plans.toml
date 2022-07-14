@@ -121,14 +121,16 @@ menu  = "italic"
 css   = "italic"
 
 [buildPlans.iosevka-proper.widths.normal]
-shape = 575        # Unit Width, measured in 1/1000 em.
+shape = 600       # Unit Width, measured in 1/1000 em.
 menu  = 5          # Width grade for the font's names.
 css   = "normal"   # "font-stretch' property of webfont CSS.
 
 
+
+
 [buildPlans.iosevka-proper-duo]      # <iosevka> is your plan name
 family = "Iosevka Proper Duo"        # Font menu family name
-spacing = "normal"                   # Optional; Values: `normal`, `quasi-proportional`, `quasi-proportional-extension-only`, `term`, `fontconfig-mono`, or `fixed`
+spacing = "quasi-proportional"       # Optional; Values: `normal`, `quasi-proportional`, `quasi-proportional-extension-only`, `term`, `fontconfig-mono`, or `fixed`
 serifs = "sans"                      # Optional; Values: `sans` or `slab`
 no-ligation = true
 no-cv-ss = true
@@ -249,6 +251,6 @@ menu  = "italic"
 css   = "italic"
 
 [buildPlans.iosevka-proper-duo.widths.normal]
-shape = 575        # Unit Width, measured in 1/1000 em.
+shape = 600        # Unit Width, measured in 1/1000 em.
 menu  = 5          # Width grade for the font's names.
 css   = "normal"   # "font-stretch' property of webfont CSS.
